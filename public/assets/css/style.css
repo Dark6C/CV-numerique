@@ -1,0 +1,23 @@
+body {
+    background-image: linear-gradient(to left bottom, #000dff, #6b00b5, #6d0076, #580045, #390023, #3c0822, #3e1021, #3f1822, #6c2232, #9d2b3e, #ce3745, #ff4747); font-family: 'Ubuntu', sans-serif;
+}
+
+header{
+    height: 100vh;
+    background: linear-gradient(90deg, #90ee90, #fff, #000);
+        background-repeat: no-repeat;
+        background-size: 80%;
+        animation: animate 3s infinite;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+@keyframes animate {
+    0% {
+      background-position: -500%;
+    }
+    100% {
+      background-position: 500%;
+    }
+
+
